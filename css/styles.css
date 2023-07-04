@@ -48,10 +48,22 @@ ol {
 /*-----HEADER---*/
 .head {
   padding-top: 24px;
-  padding-bottom: 32px;
+  padding-bottom: 24px;
 }
+
+.head-container {
+  display: flex;
+  align-items: center;
+  gap: 332px;
+}
+
 .head-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
 }
+
 .head-logo {
   color: var(--iris);
   font-size: 18px;
@@ -67,6 +79,9 @@ ol {
   font-family: "Raleway", sans-serif;
 }
 .head-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .head-menu-item {
@@ -83,6 +98,9 @@ ol {
   font-style: normal;
 }
 .head-address-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .head-menu-link:hover,
