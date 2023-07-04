@@ -195,6 +195,8 @@ img {
   padding: 120px 0;
 }
 .advantages-list {
+  display: flex;
+  gap: 24px;
 }
 .advantages-item {
 }
@@ -204,6 +206,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .advantages-item-text {
   color: var(--slate);
