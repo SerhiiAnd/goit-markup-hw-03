@@ -51,14 +51,15 @@ ol {
 }
 /*-----HEADER---*/
 .head {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .head-container {
   display: flex;
   align-items: center;
   gap: 332px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .head-nav {
@@ -77,6 +78,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .head-logo-dark {
   color: var(--navyblue);
