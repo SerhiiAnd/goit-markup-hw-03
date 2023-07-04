@@ -65,8 +65,6 @@ img {
 /*-----HEADER---*/
 .head {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .head-container {
@@ -104,6 +102,8 @@ img {
 }
 
 .head-menu-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .head-menu-link {
   color: #2e2f42;
