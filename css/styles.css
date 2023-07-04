@@ -33,6 +33,10 @@ ol {
   padding-right: 15px;
   margin: 0 auto;
 }
+
+.container-image {
+  display: block;
+}
 . body {
   font-family: "Roboto", sans-serif;
   color: #434455;
