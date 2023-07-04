@@ -53,14 +53,14 @@ img {
 /*-----HEADER---*/
 .head {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .head-container {
   display: flex;
   align-items: center;
   gap: 332px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .head-nav {
