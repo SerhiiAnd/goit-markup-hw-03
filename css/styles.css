@@ -127,6 +127,12 @@ ol {
 .boss {
   background: var(--navyblue);
 }
+
+.container-title {
+  padding: 188px 472px 292px 472px;
+  align-items: center;
+}
+
 .boss-title {
   color: var(--white);
   text-align: center;
@@ -135,7 +141,11 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 496px 120px;
+
+  margin-bottom: 48px;
 }
+
 .boss-btn {
   background: var(--iris);
   font-family: "Roboto", sans-serif;
