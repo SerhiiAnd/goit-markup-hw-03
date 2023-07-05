@@ -99,10 +99,11 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+
+  padding: 24px 0;
 }
 
 .head-menu-item {
-  padding: 24px 0;
 }
 .head-menu-link {
   color: #2e2f42;
