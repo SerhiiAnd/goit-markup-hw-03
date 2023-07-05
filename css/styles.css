@@ -90,8 +90,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-
-  padding: 24px 0;
 }
 .head-logo-dark {
   color: var(--navyblue);
@@ -104,6 +102,7 @@ img {
 }
 
 .head-menu-item {
+  padding: 24px 0;
 }
 .head-menu-link {
   color: #2e2f42;
