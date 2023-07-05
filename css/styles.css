@@ -308,7 +308,12 @@ img {
 /*---------------- BTN --------------*/
 
 .btn {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
+
 .btn-title {
   color: var(--iris);
   background-color: #f4f4fd;
@@ -319,6 +324,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .btn-accent {
 }
@@ -327,10 +336,19 @@ img {
 .btn-title:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 /*---------------- PRTF ---------------*/
+.portfolio-class {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .prtf-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
 }
 .prtf-item {
 }
