@@ -102,8 +102,6 @@ img {
 }
 
 .head-menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .head-menu-link {
   color: #2e2f42;
@@ -112,6 +110,8 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .head-addres {
   font-style: normal;
