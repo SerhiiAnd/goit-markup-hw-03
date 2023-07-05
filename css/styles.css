@@ -78,7 +78,6 @@ img {
   align-items: center;
   flex-grow: 1;
   justify-content: space-between;
-  padding: 24px 0;
 }
 
 .head-logo {
@@ -91,6 +90,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+
+  padding: 24px 0;
 }
 .head-logo-dark {
   color: var(--navyblue);
