@@ -99,6 +99,8 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .head-menu-item {
@@ -110,8 +112,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .head-addres {
   font-style: normal;
